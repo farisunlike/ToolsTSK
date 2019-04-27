@@ -94,6 +94,7 @@ echo -e  "${y} {1} Masukkan Web${endc}:"
 read web
 nmap $web
 echo
+echo "Nmap Selesai Di Install"
 
 ;;
 
@@ -106,6 +107,7 @@ echo -e "${y} python admin-finder.py"
 cd /data/data/com.termux/files/home/admin-finder/
 python2 /data/data/com.termux/files/home/admin-finder/admin-finder.py
 echo
+echo "Admin Finder Selesai Di Install"
 
 ;;
 
@@ -117,6 +119,7 @@ echo -e "${y} cd RED_HAWK"
 echo -e "${y} php RED_HAWK.php"
 cd /data/data/com.termux/files/home/RED_HAWK/
 php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
+echo "Red Hawk Selesai Di Install"
 
 ;;
 
@@ -128,6 +131,7 @@ echo -e "${y} cd Lazymux"
 echo -e "${y} python lazymux.py"
 cd /data/data/com.termux/files/home/Lazymux/
 python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
+echo "Lazymux Selesai Di Install"
 
 ;;
 
@@ -139,7 +143,7 @@ echo -e "${y} cd Tool-X"
 echo -e "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
-
+echo "Tools-X Selesai Di Install"
 ;;
 
 #thema-termux
@@ -148,6 +152,7 @@ bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 ~/.termux/colors.sh
 echo $red" ganti color ? ketik ~/.termux/colors.sh "
+echo "Thema Termux Selesai"
 
 ;;
 
@@ -160,6 +165,7 @@ apt-get install php
 git clone https://github.com/mrcakil/spam
 cd spam
 unzip toko-pedia.zip
+echo "SpamCall Selesai Di Install"
 
 ;;
 
@@ -171,6 +177,7 @@ cd ~/ngrok
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 cd ~/
+echo "Ngrok Selesai Di Install"
 
 ;;
 
@@ -182,13 +189,15 @@ pkg install python
 pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
+echo "Hammer Selesai Di Install"
 
 ;;
 
 #TuanBadut
 
 10) apt update && apt upgrade -y
-apt install git $ apt install php
+apt install git
+apt install php
 apt install curl
 apt install ruby
 apt install figlet
@@ -197,6 +206,7 @@ gem install lolcat
 git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv3 
 cd TOOLSINSTALLERv3 
 chmod +x TUANB4DUT.sh
+echo "TuanBadut Selesai Di Install"
 
 ;;
 
@@ -212,12 +222,14 @@ cd ~/webdav
 wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
 chmod 777 webdav.py
 cd ~/
+echo "Webdav Selesai Di Install"
 
 ;;
 
 #Pertama-Install
 
-12) pkg update && pkg upgrade
+12) echo "Ini Membutuhkan Waktu 9 Menit"
+pkg update && pkg upgrade
 pkg install python2 python
 pkg install php
 pkg install cowsay
@@ -232,6 +244,7 @@ pkg install openssh
 pkg install curl
 pkg install git
 pkg install wget
+echo "instal nya selesai gan semua bisa di pakai"
 
 ;;
 
