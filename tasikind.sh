@@ -220,7 +220,7 @@ cd ~/
 12) pkg update && pkg upgrade
 pkg install python2 python
 pkg install php
-pkg install cosway
+pkg install cowsay
 pkg install nano
 pkg install figlet
 pkg install toilet
