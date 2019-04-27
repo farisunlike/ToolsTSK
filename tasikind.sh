@@ -23,7 +23,7 @@ echo -e  "_____________________________________________________________"
 echo -e  "Tools    : ToolsTSK $white         " |lolcat
 echo -e  "Creadby  : F4R1S $white   " |lolcat
 echo -e  "Contact  : musikremix122@gmail.com $white " |lolcat
-echo -e "VersiTools : v1 $white " |lolcat
+echo -e "VersiTools : v1.1 $white " |lolcat
 echo -e "WhatsApp : 089657737111 $white " |lolcat
 echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
 echo -e "Warning : Jangan Memakai Script Sembarangan $white " |lolcat
