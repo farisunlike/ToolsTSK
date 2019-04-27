@@ -220,7 +220,11 @@ cd ~/
 12) pkg update && pkg upgrade
 pkg install python2 python
 pkg install php
-pkg install nano figlet ruby toilet cosway
+pkg install cosway
+pkg install nano
+pkg install figlet
+pkg install toilet
+pkg install ruby
 gem install lolcat
 pkg install sl
 pkg install neofetch
