@@ -1,5 +1,9 @@
 #!/bin/bash
-#version 1.0
+#version 1.2
+clear
+python2 please.py
+sleep 3
+clear
 
 # Variables
 b='\033[1m'
@@ -23,7 +27,7 @@ echo -e  "_____________________________________________________________"
 echo -e  "Tools    : ToolsTSK $white         " |lolcat
 echo -e  "Creadby  : F4R1S $white   " |lolcat
 echo -e  "Contact  : musikremix122@gmail.com $white " |lolcat
-echo -e "VersiTools : v1.1 $white " |lolcat
+echo -e "VersiTools : v1.2 $white " |lolcat
 echo -e "WhatsApp : 089657737111 $white " |lolcat
 echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
 echo -e "Warning : Jangan Memakai Script Sembarangan $white " |lolcat
@@ -54,34 +58,38 @@ exit
 }
 
 lagi=1
-while [ $lagi -lt 13 ];
+while [ $lagi -lt 15 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
+echo -e $b"1.  Nmap${enda}";
 echo -e "============================" | lolcat
-echo -e $b "2.  Admin-finder${endc}";
+echo -e $b"2.  Admin-finder${endc}";
 echo -e "============================" | lolcat
-echo -e $b "3.  RED_HAWK${endc}";
+echo -e $b"3.  RED_HAWK${endc}";
 echo -e "============================" | lolcat
-echo -e $b "4   Lazymux${endc}";
+echo -e $b"4   Lazymux${endc}";
 echo -e "============================" | lolcat
-echo -e $b "5.  Tools-X${endc}";
+echo -e $b"5.  Tools-X${endc}";
 echo -e "============================" | lolcat
-echo -e $b "6.  Tema-Termux${endc}";
+echo -e $b"6.  Tema-Termux${endc}";
 echo -e "============================" | lolcat
-echo -e $b "7.  Spam-Call${endc}";
+echo -e $b"7.  Spam-Call${endc}";
 echo -e "============================" | lolcat
-echo -e $b "8.  Ngrok${endc}";
+echo -e $b"8.  Ngrok${endc}";
 echo -e "============================" | lolcat
-echo -e $b "9.  Hammer${endc}";
+echo -e $b"9.  Hammer${endc}";
 echo -e "============================" | lolcat
-echo -e $b "10.  TuanBadut${endc}";
+echo -e $b"10. TuanBadut${endc}";
 echo -e "============================" | lolcat
-echo -e $b "11.  Webdav${endc}";
+echo -e $b"11.  Webdav${endc}";
 echo -e "============================" | lolcat
-echo -e $b "12.  Pertama-Install${endc}";
+echo -e $b"12.  Upgrade-Pip${endc}";
 echo -e "============================" | lolcat
-echo -e $b "13. Exit${endc}";
+echo -e $b"13.  Spam-Callv2${endc}";
+echo -e "============================" | lolcat
+echo -e $b"14.  Pertama-Install${endc}";
+echo -e "============================" | lolcat
+echo -e $b"15. Exit${endc}";
 echo ""
 echo -e "╭─0day" |lolcat
 read -p "╰─#" pil;
@@ -226,9 +234,27 @@ echo "Webdav Selesai Di Install"
 
 ;;
 
+#Upgrade-Pip
+
+12) pip install --upgrade pip
+
+;;
+
+#Spam-Callv2
+
+13) pkg update && pkg upgrade
+pkg install php
+pkg install git
+git clone https://github.com/GebangKiidiw/SpamCall
+echo "Spam-Callv2 Selesai Di Install"
+
+;;
+
 #Pertama-Install
 
-12) echo "Ini Membutuhkan Waktu 9 Menit"
+14) echo "Ini Membutuhkan Waktu 9 Menit"
+echo "Jadi Tunggu Jangan Di Ctrl + C Oke"
+sleep 3
 pkg update && pkg upgrade
 pkg install python2 python
 pkg install php
@@ -248,12 +274,12 @@ echo "instal nya selesai gan semua bisa di pakai"
 
 ;;
 
-13) echo "created by : MR.F4R1S" | lolcat
+15) echo "Created By : MR.F4R1S" | lolcat
 echo "Terimakasih Sudah Menggunakan Tools Ini " | lolcat
 exit
 ;;
 
-*) echo "sorry, pilihan yang anda cari tidak ada"
+*) echo "Kata Kata Yang Anda Masukan Salah"
 esac
 done
 done
