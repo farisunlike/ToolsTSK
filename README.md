@@ -5,6 +5,8 @@ Cara Menggunakan
 git clone https://github.com/farisunlike/ToolsTSK
 cd ToolsTSK
 bash tasikind.sh
+USERNAME : ToolsTSK
+PASSWORD : TasikIND
 Tinggal Di Pilih Momor Nya
 Nih Kalau Agan Belum Install Semua Yang Di Termux Pilih Nomor 12.Pertama-Install
 Nanti Itu Bakalan Install Semua Tapi Gk Banyak Sih Yang Penting Aja Ya Enjoy!
