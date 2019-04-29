@@ -398,7 +398,7 @@ read enter
     
 #Pertama-Install
 
-16) echo "Ini Membutuhkan Waktu 10 Menit Lebih Jadi Mohon Sabar Oke"
+17) echo "Ini Membutuhkan Waktu 10 Menit Lebih Jadi Mohon Sabar Oke"
 echo "Jadi Tunggu Jangan Di Ctrl + C Oke"
 sleep 3
 apt-get update && upgrade
@@ -425,7 +425,7 @@ echo "Dan Masih Banyak Lagi Semua Sudah Download Jadi Kalian Tinggal Memakai Nya
 
 ;;
 
-17) echo "Created By : MR.F4R1S" | lolcat
+18) echo "Created By : MR.F4R1S" | lolcat
 echo "Terimakasih Sudah Menggunakan Tools Ini " | lolcat
 echo "semoga bapak dan emak kalian masuk haji setelah memakai sc ini amin" | lolcat
 echo "dan amal ibadah nya di lancarkan dan puasa di bulan Ramadhan lancar amin " | lolcat
