@@ -42,6 +42,7 @@ echo -e "WhatsApp : 089657737111 $white " |lolcat
 echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
 echo -e "Copyright 2019 Termux $white " |lolcat
 echo -e "KALAU SCRIPT BERMASALAH HUB CREATOR OKE! $white " |lolcat
+echo -e "Kalau Kalian Masuh New Bie Kalian Install Nomor 17 Dijamin Termux Kamu Bakalan Bisa Langsung Makai"
 echo -e "Jangan Rename Script Ini Kalau Rename Dosa! $white " |lolcat
 echo -e  "_____________________________________________________________"
 
