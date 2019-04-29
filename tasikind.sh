@@ -1,5 +1,5 @@
 #!/bin/bash
-#version 1.2
+#version 1.3
 clear
 python2 please.py
 sleep 3
@@ -25,9 +25,9 @@ figlet ToolsTSK | lolcat
 
 echo -e  "_____________________________________________________________"
 echo -e  "Tools    : ToolsTSK $white         " |lolcat
-echo -e  "Creadby  : F4R1S $white   " |lolcat
+echo -e  "Creadby  : MR.F4R1S $white   " |lolcat
 echo -e  "Contact  : musikremix122@gmail.com $white " |lolcat
-echo -e "VersiTools : v1.2 $white " |lolcat
+echo -e "VersiTools : v1.3 $white " |lolcat
 echo -e "WhatsApp : 089657737111 $white " |lolcat
 echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
 echo -e "Warning : Jangan Memakai Script Sembarangan $white " |lolcat
@@ -87,9 +87,11 @@ echo -e $b"12.  Upgrade-Pip${endc}";
 echo -e "============================" | lolcat
 echo -e $b"13.  Spam-Callv2${endc}";
 echo -e "============================" | lolcat
-echo -e $b"14.  Pertama-Install${endc}";
+echo -e $b"14.  Create-Virus${endc}";
 echo -e "============================" | lolcat
-echo -e $b"15. Exit${endc}";
+echo -e $b"15.  Pertama-Install${endc}";
+echo -e "============================" | lolcat
+echo -e $b"16. Exit${endc}";
 echo ""
 echo -e "╭─0day" |lolcat
 read -p "╰─#" pil;
@@ -250,9 +252,22 @@ echo "Spam-Callv2 Selesai Di Install"
 
 ;;
 
+#Create-Virus
+
+14) git clone https://github.com/ashishb/android-malware
+echo -e "${y} Cara membuat virus mematikan"
+echo -e "${y} cd android-malware"
+echo -e "${y} ls"
+echo -e "${y} Nah kalian tinggal masuk ke dictiory virusnya"
+echo -e "${y} Contoh = cd xbot"
+echo -e "${y} ls"
+echo -e "${y} Nah kalian tinggal pindahin virus itu ke sdcard"
+
+;;
+
 #Pertama-Install
 
-14) echo "Ini Membutuhkan Waktu 9 Menit"
+15) echo "Ini Membutuhkan Waktu 9 Menit"
 echo "Jadi Tunggu Jangan Di Ctrl + C Oke"
 sleep 3
 pkg update && pkg upgrade
@@ -274,7 +289,7 @@ echo "instal nya selesai gan semua bisa di pakai"
 
 ;;
 
-15) echo "Created By : MR.F4R1S" | lolcat
+16) echo "Created By : MR.F4R1S" | lolcat
 echo "Terimakasih Sudah Menggunakan Tools Ini " | lolcat
 exit
 ;;
