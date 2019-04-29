@@ -1,6 +1,6 @@
 #!/bin/bash
 #version 1.5
-bash help.sh
+clear
 
 # Variables
 b='\033[1m'
@@ -18,7 +18,6 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-clear
 echo "Kamu Akan Masuk Dalam 5 Detik Lagi Mohon Tunggu Oke" | lolcat
 sleep 1
 figlet 5 | lolcat
