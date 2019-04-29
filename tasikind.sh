@@ -383,7 +383,7 @@ read enter
 
 #About
 
-16) echo -e "Author : Muhammad Faristanto Selama 'MR.F4R1S'"
+16) echo -e "Author : Muhammad Faristanto Salman 'MR.F4R1S'"
 echo -e "Name : ToolsTSK"
 echo -e "CodeName : MR.F4R1S"
 echo -e "version : v1.5"
