@@ -10,3 +10,4 @@ bash tasikind.sh
 Tinggal Di Pilih Momor Nya
 Nih Kalau Agan Belum Install Semua Yang Di Termux Pilih Nomor 12.Pertama-Install
 Nanti Itu Bakalan Install Semua Tapi Gk Banyak Sih Yang Penting Aja Ya Enjoy!
+#VERSIONv1.5
