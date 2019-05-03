@@ -1,6 +1,8 @@
 #!/bin/bash
 #version 1.5
-bash help.sh
+#NgapainKamuMauGantiYa
+#YangGantiIniGeDoainMasukNeraka!
+clear
 
 # Variables
 b='\033[1m'
