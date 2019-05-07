@@ -33,21 +33,23 @@ figlet 2 | lolcat
 sleep 1
 figlet 1 | lolcat
 sleep 1
+figlet SELAMAT MENUNAIKAN IBADAH PUASA KE 1440 | lolcat
+sleep 5
 clear
 figlet ToolsTSK | lolcat
 
-echo -e  "_____________________________________________________________"
+echo -e  "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e  "Tools    : ToolsTSK $white         " |lolcat
 echo -e  "Creadby  : MR.F4R1S $white   " |lolcat
 echo -e  "Contact  : musikremix122@gmail.com $white " |lolcat
-echo -e "VersiTools : v1.5 $white " |lolcat
+echo -e "VersiTools : v1.7 $white " |lolcat
 echo -e "WhatsApp : 089657737111 $white " |lolcat
 echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
 echo -e "Copyright 2019 Termux $white " |lolcat
 echo -e "KALAU SCRIPT BERMASALAH HUB CREATOR OKE! $white " |lolcat
 echo -e "Kalau Kalian Masuh New Bie Kalian Install Nomor 17 Dijamin Termux Kamu Bakalan Bisa Langsung Makai" | lolcat
 echo -e "Jangan Rename Script Ini Kalau Rename Dosa! $white " |lolcat
-echo -e  "_____________________________________________________________"
+echo -e  "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 ###################################################
 # CTRL + C
@@ -75,43 +77,44 @@ while [ $lagi -lt 15 ];
 do
 echo ""
 echo -e $b"1.  Nmap${enda}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"2.  Admin-finder${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"3.  RED_HAWK${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"4   Lazymux${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"5.  Tools-X${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"6.  Tema-Termux${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"7.  Spam-Call${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"8.  Ngrok${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"9.  Hammer${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"10. TuanBadut${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"11.  Webdav${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"12.  Upgrade-Pip${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"13.  Spam-Callv2${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"14.  Create-Virus${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"15.  ApaSajaYangBaru${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"16.  About${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"17.  Pertama-Install${endc}";
-echo -e "============================" | lolcat
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"18. Exit${endc}";
+echo -e "++++++++++++++++++++++++++++" | lolcat
 echo ""
-echo -e "╭─0day" |lolcat
-read -p "╰─#" pil;
+echo -e "PILIH GAN" |lolcat
+read -p "[MrF4R1S@Tools]>" pil;
 
 # Nmap
 
@@ -380,7 +383,16 @@ echo -e "Bagian Masuk Tools Di Adakan 5 Detik"
 echo -e "Di Exit Menambah Tulisan"
 echo -e "Di Tambahkan Pembaruan Tools Ini"
 echo -e "Pembaruan (29/4/2019 ~ 20:00)"
-echo -e "Tekan Enter Untuk Kembali"
+echo -e "_____________________________________________________________"
+echo -e "Pembaruan Tools"
+echo -e "Dibagian Pada Saat Masuk Akan Ada Text Tulisan Selamat Menunaikan Ibadah Puasa Ke 1440 H"
+echo -e "Pembaruan (5/5/2019 ~ 18:37)"
+echo -e "_____________________________________________________________"
+echo -e "Bagian Pilihan Tools Full Pembaruan"
+echo -e "Dalam About Pertama Juga Di Ganti"
+echo -e "Bagian Untuk Memilih Di Ganti"
+echo -e "Pembaruan (7/5/2019 ~ 23:14)"
+echo -e "ENTER"
 read enter
 
 ;;
@@ -416,6 +428,9 @@ pip2 install requests
 pip2 install mechanize
 pkg install ruby
 gem install lolcat
+pkg install zip
+pkg install moon-buggy
+pkg install mpv
 pkg install cowsay
 pkg install nano
 pkg install curl
