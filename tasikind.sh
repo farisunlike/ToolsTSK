@@ -1,5 +1,5 @@
 #!/bin/bash
-#version 1.5
+#version 1.7
 #NgapainKamuMauGantiYa
 #YangGantiIniGeDoainMasukNeraka!
 clear
@@ -33,6 +33,7 @@ figlet 2 | lolcat
 sleep 1
 figlet 1 | lolcat
 sleep 1
+clear
 figlet SELAMAT MENUNAIKAN IBADAH PUASA KE 1440 | lolcat
 sleep 5
 clear
@@ -104,15 +105,18 @@ echo -e $b"13.  Spam-Callv2${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
 echo -e $b"14.  Create-Virus${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
-echo -e $b"15.  ApaSajaYangBaru${endc}";
+echo -e $b"15.  PlayMusik${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
-echo -e $b"16.  About${endc}";
+echo -e $b"16.  ApaSajaYangBaru${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
-echo -e $b"17.  Pertama-Install${endc}";
+echo -e $b"17.  About${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
-echo -e $b"18. Exit${endc}";
+echo -e $b"18.  Pertama-Install${endc}";
+echo -e "++++++++++++++++++++++++++++" | lolcat
+echo -e $b"19. Exit${endc}";
 echo -e "++++++++++++++++++++++++++++" | lolcat
 echo ""
+date
 echo -e "PILIH GAN" |lolcat
 read -p "[MrF4R1S@Tools]> " pil;
 
@@ -376,9 +380,20 @@ echo -e "${y} Nah kalian tinggal pindahin virus itu ke sdcard"
 
 ;;
 
+#CaraPlayMusic
+
+15) echo -e "Enjoy Your Music"
+echo -e "No Lag"
+echo -e "Skip Tekan Enter"
+echo -e "Pause Tekan P"
+pkg install mpv
+mpv /sdcard/download
+
+;;
+
 #ApaSajaYangBaru
 
-15) echo -e "Pembaruan Tools"
+16) echo -e "Pembaruan Tools"
 echo -e "Bagian Masuk Tools Di Adakan 5 Detik"
 echo -e "Di Exit Menambah Tulisan"
 echo -e "Di Tambahkan Pembaruan Tools Ini"
@@ -392,6 +407,9 @@ echo -e "Bagian Pilihan Tools Full Pembaruan"
 echo -e "Dalam About Pertama Juga Di Ganti"
 echo -e "Bagian Untuk Memilih Di Ganti"
 echo -e "Pembaruan (7/5/2019 ~ 23:14)"
+echo -e "_____________________________________________________________"
+echo -e "Bagian Tools Di Tambahkan PlayMusic"
+echo -e "Pembaruan (12/5/2019 ~ 0:17)"
 echo -e "ENTER"
 read enter
 
@@ -399,10 +417,10 @@ read enter
 
 #About
 
-16) echo -e "Author : Muhammad Faristanto Salman 'MR.F4R1S'"
+17) echo -e "Author : Muhammad Faristanto Salman 'MR.F4R1S'"
 echo -e "Name : ToolsTSK"
 echo -e "CodeName : MR.F4R1S"
-echo -e "version : v1.5"
+echo -e "version : v1.7"
 echo -e "Date : (29/4/2019)~(20:00)"
 echo -e "Team : Tasikmalaya Cyber Team"
 echo -e "Email : musikremix122@gmail.com"
@@ -414,7 +432,7 @@ read enter
     
 #Pertama-Install
 
-17) echo "Ini Membutuhkan Waktu 10 Menit Lebih Jadi Mohon Sabar Oke"
+18) echo "Ini Membutuhkan Waktu 10 Menit Lebih Jadi Mohon Sabar Oke"
 echo "Jadi Tunggu Jangan Di Ctrl + C Oke"
 sleep 3
 apt-get update && upgrade
@@ -444,7 +462,7 @@ echo "Dan Masih Banyak Lagi Semua Sudah Download Jadi Kalian Tinggal Memakai Nya
 
 ;;
 
-18) echo "Created By : MR.F4R1S" | lolcat
+19) echo "Created By : MR.F4R1S" | lolcat
 echo "Terimakasih Sudah Menggunakan Tools Ini " | lolcat
 echo "semoga bapak dan emak kalian masuk haji setelah memakai sc ini amin" | lolcat
 echo "dan amal ibadah nya di lancarkan dan puasa di bulan Ramadhan lancar amin " | lolcat
