@@ -41,14 +41,14 @@ figlet ToolsTSK | lolcat
 
 echo -e  "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo -e  "Tools    : ToolsTSK $white         " |lolcat
-echo -e  "Creadby  : MR.F4R1S $white   " |lolcat
+echo -e  "Creadby  : mrtakil $white   " |lolcat
 echo -e  "Contact  : musikremix122@gmail.com $white " |lolcat
 echo -e "VersiTools : v1.7 $white " |lolcat
 echo -e "WhatsApp : 089657737111 $white " |lolcat
-echo -e "GitHub : https://github.com/farisunlike $white " |lolcat
+echo -e "GitHub : https://github.com/mrtakil $white " |lolcat
 echo -e "Copyright 2019 Termux $white " |lolcat
 echo -e "KALAU SCRIPT BERMASALAH HUB CREATOR OKE! $white " |lolcat
-echo -e "Kalau Kalian Masuh New Bie Kalian Install Nomor 17 Dijamin Termux Kamu Bakalan Bisa Langsung Makai" | lolcat
+echo -e "Kalau Kalian Masuh New Bie Kalian Install Nomor 18 Dijamin Termux Kamu Bakalan Bisa Langsung Makai" | lolcat
 echo -e "Jangan Rename Script Ini Kalau Rename Dosa! $white " |lolcat
 echo -e  "+++++++++++++++++++++++++++++++++++++++++++++++++++"
 
@@ -417,9 +417,9 @@ read enter
 
 #About
 
-17) echo -e "Author : Muhammad Faristanto Salman 'MR.F4R1S'"
+17) echo -e "Author : Muhammad Faristanto Salman 'mrtakil'"
 echo -e "Name : ToolsTSK"
-echo -e "CodeName : MR.F4R1S"
+echo -e "CodeName : mrtakil"
 echo -e "version : v1.7"
 echo -e "Date : (29/4/2019)~(20:00)"
 echo -e "Team : Tasikmalaya Cyber Team"
