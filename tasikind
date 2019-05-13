@@ -386,6 +386,9 @@ echo -e "${y} Nah kalian tinggal pindahin virus itu ke sdcard"
 echo -e "No Lag"
 echo -e "Skip Tekan Enter"
 echo -e "Pause Tekan P"
+echo -e "Kalau Ada Yang Izinkan Dan Tolak Pilih Izinkan"
+sleep 2
+termux-setup-storage
 pkg install mpv
 mpv /sdcard/download
 
